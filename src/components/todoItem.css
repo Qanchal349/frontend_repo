@@ -1,0 +1,41 @@
+.todoItemContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    border-left: 8px solid rgb(23, 34, 32);
+    box-shadow: 1px 2px 7px rgb(23, 34, 32);
+    flex-direction: column;
+}
+
+.todoItemContainer > .item{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.item >p{
+    font-size: large;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.item >h6{
+    font-size: small;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: gray;
+}
+
+.item >.actions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item >.actions>p>svg{
+    margin-left: 1rem;
+    cursor: pointer;
+    color: #213732;
+}
